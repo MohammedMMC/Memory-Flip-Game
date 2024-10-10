@@ -1,14 +1,14 @@
 let IMAGES = [
-    "/icons/c-logo.png",
-    "/icons/html-5.png",
-    "/icons/js.png",
-    "/icons/mysql.png",
-    "/icons/php.png",
-    "/icons/physics.png",
-    "/icons/python.png",
-    "/icons/technology.png",
-    "/icons/typescript.png",
-    "/icons/visual-basic.png",
+    "./icons/c-logo.png",
+    "./icons/html-5.png",
+    "./icons/js.png",
+    "./icons/mysql.png",
+    "./icons/php.png",
+    "./icons/physics.png",
+    "./icons/python.png",
+    "./icons/technology.png",
+    "./icons/typescript.png",
+    "./icons/visual-basic.png",
 ];
 
 

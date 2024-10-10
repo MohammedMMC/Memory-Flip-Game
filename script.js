@@ -46,8 +46,6 @@ function csc(card) {
         if (getComputedStyle(selectedCards[0]).getPropertyValue('--imgurl') === getComputedStyle(selectedCards[1]).getPropertyValue('--imgurl')) {
             selectedCards = [];
             points++;
-            const triesTitle = document.getElementById("tries");
-            triesTitle.innerText = "Tries: " + tries;
         } else {
             const gameElement = document.getElementById("game");
             [...gameElement.children].forEach(c => c.disabled = true);
@@ -57,7 +55,10 @@ function csc(card) {
                 [...gameElement.children].forEach(c => c.disabled = false);
             }, 1000)
         }
+        
         tries++;
+        const triesTitle = document.getElementById("tries");
+        triesTitle.innerText = "Tries: " + tries;
     }
 
     checkWin();
